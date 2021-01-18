@@ -1,0 +1,297 @@
+<!doctype html>
+{%load static%}
+
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <link href="https://fonts.googleapis.com/css?family=Cardo:400i|Open+Sans:700|Raleway:300,400,600,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <link rel="stylesheet" href="{% static 'normalize.css' %}">
+  <link rel="stylesheet" href="{% static 'css/main.css' %}">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Cache-Control" content="no-cache">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <meta http-equiv="cache-control" content="no-cache">
+  <meta http-equiv="expires" content="0">
+  <meta name="keywords" content="купить резервуары, покупка емкостей, купить емкость, покупка резервуара, недорого" />
+  <meta name="google" content="notranslate" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+  <script src="{% static 'js/jquery.maskedinput.js' %}"></script>
+  <script type="text/javascript">         
+  
+  jQuery(function($){
+    $("#phone").mask("+7(999) 999-9999");
+  });
+  $("input").on("keypress", function(e) {
+
+    var char = /["a-zA-Z]/;
+    var val = String.fromCharCode(e.which);
+    var test = char.test(val);
+
+    if(!test) return false
+  })
+
+</script>
+
+
+<title>Купить емкости Тюмень Союз Инжиниринг</title>
+<meta name="description" content="Купить резервуары Тюмень Покупка емкостей из полипропилена и полиэтилена Купить Пожарные емкости и резервуары пластиковые силосы автоцистерны футеровка полипропиленом Полипропиленовые системы вентиляции пластиковые септики гальванические ванны полипропиленовые чаши для бассейна локальные очистные сооружения ливневых стоков">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body background="black">
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="container">
+      <div class="header__inner">
+        <div class="header__logo">
+          <img class="img" src="{% static 'img/logo.gif' %}" alt="">
+          <div class="logo__logo">
+            Союз Инжиниринг
+          </div>
+          <div class="header__emtel">
+            <div class="header__tel">
+              тел: <a class="tel" href="tel:+73452602013"> +7 (3452) 60-20-13</a>
+            </div>
+            <div class="header__tel">
+              тел: <a class="tel" href="tel:+79129287300">+7 912 928-73-00</a> Viber и WhatsApp
+            </div>
+            <div class="header__email">
+              
+              e-mail: <a class="email" href="mailto:emkostipp@bk.ru">emkostipp@bk.ru</a>
+            </div>
+            <div class="header__email">
+              г. <a class="email" href="https://www.google.com/maps/place/%D0%A2%D1%8E%D0%BC%D0%B5%D0%BD%D1%8C,+%D0%A2%D1%8E%D0%BC%D0%B5%D0%BD%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB./@57.1737739,65.2918255,10z/data=!3m1!4b1!4m5!3m4!1s0x43bbe15d51a3b8c7:0x9b137b6a2aa36793!8m2!3d57.1612975!4d65.5250172">
+                Тюмень</a>
+            </div>
+
+          </div>
+        </div>
+      
+        <nav class="nav" id="nav">
+          <a class="nav__link" href="/passage/">Галерея</a>
+          <a class="nav__link" href="/articles/">Статьи</a>
+          <a class="nav__link" href="/documentation/">Документация</a>
+          <a class="nav__link" href="/contacts/">Контакты</a>
+        </nav>
+
+        <button class="burger" type="button" id="navToggle">
+          <span class="burger__item">Menu</span>
+        </button>
+
+      </div>
+    </div>
+  </header>
+
+
+  <!-- Intro -->
+  <div class="intro" id="intro">
+    <div class="container">
+      <div class="intro__inner">
+        <div class="intro__in">
+
+          <h1 class="intro__title">Резервуары и емкости из полипропилена и полиэтилена под заказ</h1>
+        </div>
+
+        <h2 class="intro__subtitle">Производство пожарных емкостей, ливневых сточных вод, технологического и пищевого назначения</h2>
+        <a class="btn  btn--red" href="#" data-scroll="#features">Узнать больше</a>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container" id="features">
+    <div class="feature__title">
+      <h2 class="about__title">Преимущества</h2>
+    </div>
+    <div class="features">
+      <div class="features__item">
+        <img class="features__icon" src="{% static 'img/features/feature-1.png' %}" alt="квалифицированные сотрудники">
+        <h4 class="features__title">Квалифицированные сотрудники</h4>
+        <div class="features__text">Работают в соответствии с техническими условиями предприятия</div>
+      </div>
+
+      <div class="features__item">
+        <img class="features__icon" src="{% static 'img/features/feature-2.png' %}" alt="без задержек и переживаний">
+        <h4 class="features__title">Без задержек и переживаний</h4>
+        <div class="features__text">Поддерживаем связь с заказчиком в период работы</div>
+      </div>
+
+      <div class="features__item">
+        <img class="features__icon" src="{% static 'img/features/feature-3.png' %}" alt="материал высокого качества">
+        <h4 class="features__title">Изделия высокого качества</h4>
+        <div class="features__text">Достигается применением материалов только первичного производства и строгим контролем тех. процесса</div>
+      </div>
+
+      <div class="features__item">
+        <img class="features__icon" src="{% static 'img/features/feature-4.png' %}" alt="кратчайшие сроки">
+        <h4 class="features__title">Будь в курсе статуса своего заказа</h4>
+        <div class="features__text">Полное сопровождение на протяжении всего срока изготовления</div>
+      </div>
+
+      <div class="features__item">
+        <img class="features__icon" src="{% static 'img/features/feature-5.png' %}" alt="анализ установки">
+        <h4 class="features__title">Анализ установки</h4>
+        <div class="features__text">Каждые полгода при необходимости проводится технический осмотр установки</div>
+      </div>
+
+      <div class="features__item">
+        <img class="features__icon"src="{% static 'img/features/feature-6.png' %}" alt="работа по техническим условиям">
+        <h4 class="features__title">Работа по техническим условиям</h4>
+        <div class="features__text">Работаем в соответствии с техническими условиями предприятий</div>
+      </div>
+    </div><!-- /.features -->
+  </div><!-- /.container -->
+
+
+  <!-- About -->
+
+  <div class="about" id="about">
+    <div class="container">
+      <h2 class="about__title">О компании</h2>
+      <div class="about__text">
+        “Союз Инжиниринг” является современным высокотехнологичным предприятием, специализирующимся на проектировании, изготовлении и ремонте ёмкостного, резервуарного оборудования для нефтеперерабатывающих предприятий, а также предприятий смежных отраслей российской промышленности.
+      </div>
+    </div>
+  </div>
+
+  <!-- Works -->
+  <div class="feature__title" id="works">
+    <h2 class="about__title">ПРОДУКЦИЯ ИЗ ПОЛИПРОПИЛЕНА И ПОЛИЭТИЛЕНА - ЕМКОСТИ И РЕЗЕРВУАРЫ</h2>
+  </div>
+  <div class="works">
+    <div class="product-blok">
+      <div class="works__item">
+        <h4 class="features__title">Пожарные емкости и резервуары</h4>
+        <a href="{% static 'img/work/Пожарные.jpg' %}"><img class="works__img" alt="Пожарные емкости и резервуары"src="{% static 'img/work/Пожарные.jpg' %}"></a>
+        <p class="features__text">
+          Резервуар противопожарный из полипропилена механически прочный, и, в отличии от других популярных материалов, например металлических, железобетонных и стеклопластиковых емкостях имеет более низкую себестоимость и более высокий срок эксплуатации.
+        </p>
+      </div>
+      <div class="works__item">
+        <h4 class="features__title">Пластиковые силосы</h4>
+        <a href="{% static 'img/work/Пластиковые_силосы.jpg' %}"><img class="works__img" alt="Пластиковые силосы" src="{% static 'img/work/Пластиковые_силосы.jpg' %}"></a>
+        <p class="features__text">Силос — это резервуар для хранения сыпучих продуктов и дальнейшей дозировки клапаном на транспортировочный конвейер. Состоит силос (бункер), из двух частей, основная емкость с конусным дном и металлической опоры.
+        </p>
+      </div>
+
+      <div class="works__item">
+        <h4 class="features__title">Автоцистерны</h4>
+        <a href="{% static 'img/work/Автоцистерны.jpg' %}"><img class="works__img" alt="Автоцистерны" src="{% static 'img/work/Автоцистерны.jpg' %}"></a>
+        <p class="features__text">
+          Автоцистерна — это специализированное грузовое транспортное средство, основная емкость или цистерна которого располагается в кузове и служит для транспортировки жидкости.
+        </p>
+      </div>
+      <div class="works__item">
+        <h4 class="features__title">Футеровка полипропиленом</h4>
+        <a href="{% static 'img/work/Футеровка_полипропиленом.jpg' %}"><img class="works__img" alt="Футеровка полипропиленом" src="{% static 'img/work/Футеровка_полипропиленом.jpg' %}"></a>
+        <p class="features__text">Облицовывание поверхности ёмкости внутри полипропиленом с целью обеспечения надежной, длительной защиты от возможных хим. повреждений или физических дефектов, истирания. Футеровка полипропиленом обеспечивает: гидроизоляцию и непроницаемость, оберегает от коррозии.</p>
+      </div>
+
+      <div class="works__item">
+        <h4 class="features__title">Полипропиленовые системы вентиляции</h4>
+        <a href="{% static 'img/work/Система_вентиляции.jpg' %}"><img class="works__img" alt="Полипропиленовые системы вентиляции" src="{% static 'img/work/Система_вентиляции.jpg' %}"></a>
+        <p class="features__text">Полипропиленовые трубные воздуховоды — это основное устройство в проветривании какого-либо помещения. Нужна вентиляция для поступления свежего воздуха в промышленные либо жилые, административные помещения, и устранения загрязнённого воздуха из здания наружу.</p>
+      </div>
+      <div class="works__item">
+        <h4 class="features__title">Пластиковые септики</h4>
+        <a href="{% static 'img/work/Пластиковые_септики.jpg' %}"><img class="works__img" alt="Пластиковые септики"src="{% static 'img/work/Пластиковые_септики.jpg' %}"></a>
+        <p class="features__text">
+          Септик — это сложная инженерная конструкция, используемая для очистки сточных вод и фекальных масс максимальным объемом до 50 м³ в сутки. Состоит из двух и более емкостей, в которых происходит оседание частиц грязи, разложение и дальнейший отвод очищенной жидкости по системам труб. 
+        </p>
+      </div>
+      <div class="works__item">
+        <h4 class="features__title">Гальванические ванны</h4>
+        <a href="{% static 'img/work/Гальванические_ванны.jpg' %}"><img class="works__img" alt="Гальванические ванны" src="{% static 'img/work/Гальванические_ванны.jpg' %}"></a>
+        <p class="features__text">
+          Гальваническая ванна — емкость, изготовленная из химически не активного материала. Ванны для гальваники сваривают из материала не способного повлиять на деталь внутри ванны, чаще это полипропилен, поливинилхлорид или нержавеющая сталь. 
+        </p>
+      </div>
+
+      <div class="works__item">
+        <h4 class="features__title">Полипропиленовые чаши для бассейна</h4>
+        <a href="{% static 'img/work/Полипропиленовые_чаши_для_бассейна.jpg' %}"><img class="works__img" alt="Полипропиленовые чаши для бассейна"src="{% static 'img/work/Полипропиленовые_чаши_для_бассейна.jpg' %}"></a>
+        <p class="features__text">Данные чаши изготовлены из полипропилена, объемы от 0,001 до 100 м3 воды, отлично герметизированы и совершенно не пропускают воду. Применяются данные чаши для плавательных бассейнов домашних либо для общественного места, аквапарка, а также применяются в такой сфере как разведение рыб (осетровых, лососёвых и других видов) в рыбохозяйстве. </p>
+      </div>
+      <div class="works__item">
+        <h4 class="features__title">Локальные очистные сооружения ливневых стоков 100 м3</h4>
+        <a href="{% static 'img/work/Септик.jpg' %}"><img class="works__img" alt="Локальные очистные сооружения ливневых стоков 100 м3" src="{% static 'img/passage/Септик.jpg' %}"></a>
+        <p class="features__text">Локальные очистные сооружения ливневых стоков производятся из полиэтилена и полипропилена. В систему очистки сточных ливневых вод включены следующие элементы системы: сорбционный фильтр, нефтеуловитель, пескоуловитель. При необходимости локальные очистные сооружения могут оснащаться и ультрафиолетовыми установками.</p>
+      </div>
+    </div>
+  </div>
+  <!-- <div class="cert">
+    <div class="cert__inner">
+
+  <a class="cert__link" href="img/cert/cert.jpg">  <img src="img/cert/cert_2.jpg" alt=""> </a>
+
+
+  <a class="cert__link" href="img/cert/cert.jpg">  <img src="img/cert/cert_2.jpg" alt=""> </a>
+
+
+  <a class="cert__link" href="img/cert/cert.jpg">  <img src="img/cert/cert_2.jpg" alt=""> </a>
+
+
+  <a class="cert__link" href="img/cert/cert.jpg">  <img src="img/cert/cert_2.jpg" alt=""> </a>
+
+
+        <a class="cert__link" href="img/cert/cert.jpg">  <img src="img/cert/cert_2.jpg" alt=""> </a>
+
+    </div>
+  </div> -->
+
+  <!-- Form -->
+
+  <div class="container"  id="buy">
+    <div class="feature__title">
+      <h2 class="about__title">Появились вопросы или хотите сделать заказ?</h2>
+    </div>
+    <div id="range2">
+      <div class="outer">
+        <div class="middle">
+          <div class="inner">
+            <div class="login-wr">
+              <h2 class="about__title">Оформить заказ</h2>
+              <form class="form" method="post">
+                {% csrf_token %}
+                <input type="text" placeholder="Имя" id="name" name="name" required pattern="^[а-яА-Я]+$">
+                <input id="phone" type="tel" placeholder="Телефон" name="tel" required>
+                <button class="btn btn--red btn" type="submit" value="submit"> Оформить</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="copyright">
+      <div class="container">
+        <div class="copyright__text">
+          <div>Copyright © 2020 Союз Инжиниринг. All Rights Reserved</div>
+          <div>Made <span>by <a class="copyright__name" href="https://www.instagram.com/anthonylove19/">Anthony Love</a></span></div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+  <!-- Javascript -->
+  {% block extrahead %}
+  <script src=" {% static 'js/js.js' %} "></script>
+  {% endblock extrahead %}
+
+
+  <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="app.js"></script>
+
+
+</body>
+</html>

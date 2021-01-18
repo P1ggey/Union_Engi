@@ -1,0 +1,130 @@
+
+<!doctype html>
+{%load static%}
+
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <link href="https://fonts.googleapis.com/css?family=Cardo:400i|Open+Sans:700|Raleway:300,400,600,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <link rel="stylesheet" href="{% static 'normalize.css' %}">
+  <link rel="stylesheet" href="{% static 'css/documentation.css' %}">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Cache-Control" content="no-cache">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <meta http-equiv="cache-control" content="no-cache">
+  <meta http-equiv="expires" content="0">
+  <meta name="keywords" content="купить резервуары, покупка емкостей, купить емкость, покупка резервуара, недорого" />
+  <meta name="google" content="notranslate" />
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+  <script src="{% static 'js/jquery.maskedinput.js' %}"></script>
+  <script type="text/javascript">
+ 
+  
+  jQuery(function($){
+    $("#phone").mask("+7(999) 999-9999");
+  });
+  $("input").on("keypress", function(e) {
+
+    var char = /["a-zA-Z]/;
+    var val = String.fromCharCode(e.which);
+    var test = char.test(val);
+
+    if(!test) return false
+  })
+
+</script>
+
+<title>Купить емкости Тюмень Союз Инжиниринг</title>
+<meta name="description" content="Купить резервуары Тюмень Покупка емкостей из полипропилена и полиэтилена Купить Пожарные емкости и резервуары пластиковые силосы автоцистерны футеровка полипропиленом Полипропиленовые системы вентиляции пластиковые септики гальванические ванны полипропиленовые чаши для бассейна локальные очистные сооружения ливневых стоков">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body background="black">
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="container">
+      <div class="header__inner">
+        <div class="header__logo">
+          <a href="/"><img class="img" src="{% static 'img/logo.gif' %}" alt=""></a>
+          <div class="logo__logo">
+            <a class="logo__href" href="/">
+                                     Союз Инжиниринг</a>
+          </div>
+          <div class="header__emtel">
+            <div class="header__tel">
+              тел: <a class="tel" href="tel:+73452602013"> +7 (3452) 60-20-13</a>
+            </div>
+            <div class="header__tel">
+              тел: <a class="tel" href="tel:+79129287300">+7 912 928-73-00</a> Viber и WhatsApp
+            </div>
+            <div class="header__email">
+              
+              e-mail: <a class="email" href="mailto:emkostipp@bk.ru">emkostipp@bk.ru</a>
+            </div>
+            <div class="header__email">
+              г. <a class="email" href="https://www.google.com/maps/place/%D0%A2%D1%8E%D0%BC%D0%B5%D0%BD%D1%8C,+%D0%A2%D1%8E%D0%BC%D0%B5%D0%BD%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB./@57.1737739,65.2918255,10z/data=!3m1!4b1!4m5!3m4!1s0x43bbe15d51a3b8c7:0x9b137b6a2aa36793!8m2!3d57.1612975!4d65.5250172">
+                Тюмень</a>
+            </div>
+
+          </div>
+        </div>
+
+        <nav class="nav" id="nav">
+          <a class="nav__link" href="/passage/">Галерея</a>
+          <a class="nav__link" href="/articles/">Статьи</a>
+          <a class="nav__link" href="/documentation/">Документация</a>
+          <a class="nav__link" href="/contacts/">Контакты</a>
+        </nav>
+
+        <button class="burger" type="button" id="navToggle">
+          <span class="burger__item">Menu</span>
+        </button>
+
+      </div>
+    </div>
+  </header>
+
+
+  <!-- Intro -->
+  <div class="intro" id="intro">
+    <div class="container">
+      <div class="intro__inner">
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="razrab">В разработке...</div>
+    <!-- Пока в разработке -->
+      <!-- <h2>Документации</h2>
+      <a class="doc_a" target="_blank" href="{% static 'img/documentation/primer.pdf' %}"> <div class="doc__link">Документация_1</div></a>
+      <a class="doc_a" target="_blank" href="{% static 'img/documentation/primer.pdf' %}"> <div class="doc__link">Документация_2</div></a>
+      <a class="doc_a" target="_blank" href="{% static 'img/documentation/primer.pdf' %}"> <div class="doc__link">Документация_3</div></a>
+      <a class="doc_a" target="_blank" href="{% static 'img/documentation/primer.pdf' %}"> <div class="doc__link">Документация_4</div></a>
+      <a class="doc_a" target="_blank" href="{% static 'img/documentation/primer.pdf' %}"> <div class="doc__link">Документация_5</div></a>
+      <a class="doc_a" target="_blank" href="{% static 'img/documentation/primer.pdf' %}"> <div class="doc__link">Документация_6</div></a>
+        <a class="btn" href="..">Вернуться на главную</a> -->
+
+
+    </div>
+
+ 
+ 
+
+ 
+
+
+
+  <!-- Javascript -->
+  {% block extrahead %}
+  <script src=" {% static 'js/js.js' %} "></script>
+  {% endblock extrahead %}
+
+
+  <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="app.js"></script>
+
+
+</body>
+</html>
